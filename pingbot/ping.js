@@ -160,3 +160,4 @@ function logUnallowedPing(message) {
 }
 
 client.login(TOKEN);
+test
