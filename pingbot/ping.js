@@ -119,11 +119,11 @@ async function handleMentionedUser(message) {
           },
         ],
       });
-      console.log(`DM an ${user.tag} gesendet.`);
+      console.log(`DM sended to ${user.tag}`);
 
       message.delete().catch(console.error);
     } catch (error) {
-      console.error(`Fehler beim Senden der DM an ${user.tag}: ${error}`);
+      console.error(`Failed to send a DM to ${user.tag}: ${error}`);
       
       const replyMessage = `${user}`;
       const sentMessage = await message.channel.send(replyMessage);
