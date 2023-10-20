@@ -1,0 +1,34 @@
+Installation Guide for the Pingbot
+
+
+##Step 1
+
+Drop the pingbot folder into your server
+
+##Step 2
+
+cd /Pathtopingbot
+
+##Step 3
+npm install
+
+##Step 4
+./start.sh
+
+
+Installations Guide für den Pingbot
+
+
+##Step 1
+
+Füge den pingbot ordner in deinem Server ein
+
+##Step 2
+
+cd /Pathtopingbot
+
+##Step 3
+npm install
+
+##Step 4
+./start.sh

@@ -1,0 +1,89 @@
+Install the Bot
+
+# How to Create a Discord Bot on the Discord Developer Portal
+
+Discord bots can enhance your server's functionality and make it more engaging. Follow these steps to create your own Discord bot using the Discord Developer Portal.
+
+## Prerequisites
+
+- A Discord account
+- A Discord server where you have administrative permissions
+
+## Steps
+
+### Step 1: Create a Discord Application
+
+1. Visit the [Discord Developer Portal](https://discord.com/developers/applications).
+2. Click on the "New Application" button.
+3. Give your application a name. This will be the name of your bot.
+4. Click "Create."
+
+### Step 2: Create a Bot User
+
+1. In your newly created application, go to the "Bot" tab on the left sidebar.
+2. Click "Add Bot."
+3. Confirm the action by clicking "Yes, do it!" This will create a bot user for your application.
+
+### Step 3: Invite the Bot to Your Server
+
+1. Still on the "Bot" tab, find the "Token" section. Click "Copy" to copy your bot's token.
+2. Open a new browser tab and use this link to invite your bot to your server:
+   ```
+   https://discord.com/oauth2/authorize?client_id=YOUR_BOT_CLIENT_ID&scope=bot&permissions=YOUR_PERMISSIONS
+   ```
+   Replace `YOUR_BOT_CLIENT_ID` with your bot's Client ID (found at the top of the "General Information" tab) and specify the permissions your bot will need. You can use a [permissions calculator](https://discordapi.com/permissions.html) to generate the permissions integer.
+3. Follow the on-screen instructions to select your server and authorize the bot.
+
+### Step 4: Add the Bot to Your Server
+
+1. Go to your Discord server.
+2. You should see your bot in the member list on the right-hand side. You can customize its nickname and role if desired.
+
+
+
+------------
+
+
+
+# Bot installieren
+
+# Wie man einen Discord-Bot im Discord Developer Portal erstellt
+
+Discord-Bots können die Funktionalität Ihres Servers verbessern und ihn interaktiver gestalten. Folgen Sie diesen Schritten, um Ihren eigenen Discord-Bot mithilfe des Discord Developer Portals zu erstellen.
+
+## Voraussetzungen
+
+- Ein Discord-Konto
+- Ein Discord-Server, auf dem Sie administrative Berechtigungen haben
+
+## Schritte
+
+### Schritt 1: Erstellen einer Discord-Anwendung
+
+1. Besuchen Sie das [Discord Developer Portal](https://discord.com/developers/applications).
+2. Klicken Sie auf die Schaltfläche "Neue Anwendung".
+3. Geben Sie Ihrer Anwendung einen Namen. Dies wird der Name Ihres Bots sein.
+4. Klicken Sie auf "Erstellen".
+
+### Schritt 2: Erstellen eines Bot-Benutzers
+
+1. In Ihrer neu erstellten Anwendung wechseln Sie zum Tab "Bot" in der linken Seitenleiste.
+2. Klicken Sie auf "Bot hinzufügen".
+3. Bestätigen Sie die Aktion, indem Sie auf "Ja, machen Sie das!" klicken. Dadurch wird ein Bot-Benutzer für Ihre Anwendung erstellt.
+
+### Schritt 3: Einladen des Bots auf Ihren Server
+
+1. Bleiben Sie auf dem Tab "Bot" und suchen Sie den Abschnitt "Token". Klicken Sie auf "Kopieren", um das Token Ihres Bots zu kopieren.
+2. Öffnen Sie einen neuen Browser-Tab und verwenden Sie diesen Link, um Ihren Bot auf Ihren Server einzuladen:
+   ```
+   https://discord.com/oauth2/authorize?client_id=IHRE_BOT_CLIENT_ID&scope=bot&permissions=IHRE_BERECHTIGUNGEN
+   ```
+   Ersetzen Sie `IHRE_BOT_CLIENT_ID` durch die Client-ID Ihres Bots (zu finden oben im Tab "Allgemeine Informationen") und geben Sie die Berechtigungen an, die Ihr Bot benötigt. Sie können einen [Berechtigungsrechner](https://discordapi.com/permissions.html) verwenden, um die Berechtigungsnummer zu generieren.
+3. Befolgen Sie die Bildschirmanweisungen, um Ihren Server auszuwählen und den Bot zu autorisieren.
+
+### Schritt 4: Den Bot zu Ihrem Server hinzufügen
+
+1. Gehen Sie zu Ihrem Discord-Server.
+2. Sie sollten Ihren Bot in der Mitgliederliste auf der rechten Seite sehen. Sie können seinen Spitznamen und seine Rolle nach Belieben anpassen.
+
+Dies sind die grundlegenden Schritte, um Ihren Discord-Bot im Discord Developer Portal zu erstellen und auf Ihrem Server zu installieren.
