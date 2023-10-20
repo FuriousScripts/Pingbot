@@ -1,0 +1,1 @@
+screen -dmS pingbot node ping.js
